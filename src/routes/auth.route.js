@@ -17,10 +17,6 @@ authRouter.get("/logout-all",authController.logoutAll)
 
 authRouter.get("/verify-email", authController.verifyEmail)
 
-authRouter.get("/", (req, res) => {
-  res.send("Authentication System API is running 🚀");
-});
-
 
 
 export default authRouter 
